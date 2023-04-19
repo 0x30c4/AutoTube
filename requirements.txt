@@ -1,0 +1,4 @@
+moviepy==1.0.3
+praw==7.7.0
+prawcore==2.3.0
+clint==0.5.1

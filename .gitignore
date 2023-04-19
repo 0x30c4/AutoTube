@@ -1,0 +1,8 @@
+# Ignore specific files and directories
+.DS_Store
+final_output/
+concat_files/
+*_videos/
+*_data/
+test.py
+sublist_2
