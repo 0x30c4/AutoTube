@@ -6,8 +6,16 @@ import praw
 import datetime
 from subprocess import check_output
 from clint.textui import progress
-from config import *
 # from moviepy.editor import VideoFileClip, AudioFileClip, CompositeAudioClip
+
+with open("./creds.json") as creds:
+    creds = json.load(creds)
+
+client_secret = creds["client_secret"]
+client_id = creds["client_id"]
+
+username = creds["username"]
+password = creds["password"]
 
 reddit = praw.Reddit(client_id=client_id,
                      client_secret=client_secret,

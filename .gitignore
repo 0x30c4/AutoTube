@@ -6,4 +6,4 @@ concat_files/
 *_data/
 test.py
 sublist_2
-./config.py
+creds.json

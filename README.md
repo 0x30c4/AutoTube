@@ -15,6 +15,22 @@ $ pip3 install -r requirements.txt
 
 ### This script requires [ffmpeg](https://ffmpeg.org)
 
+## Setup.
+First run:
+```shell
+$ cp creds.example.json creds.json
+```
+
+Put your reddit api key in the ```creds.json``` file
+```
+{
+	"client_secret": "CLIENT_SECRET",
+	"client_id": "CLIENT_ID",
+	"username": "USERNAME",
+	"password": "PASSWORD"
+}
+```
+
 Run the program:
 ```
 $ python3 main.py --help
